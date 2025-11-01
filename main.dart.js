@@ -62071,7 +62071,7 @@ A.OG.prototype={
 $0(){return this.a.lf("https://github.com/Kadhambari25")},
 $S:0}
 A.OH.prototype={
-$0(){this.a.lf("assets/files/Kadhambari_P_S_Resume.pdf")},
+$0(){this.a.lf("assets/assets/files/Kadhambari_P_S_Resume.pdf")},
 $S:0}
 A.BK.prototype={
 P(a){var s=null
