@@ -51,15 +51,10 @@ class ContactPage extends StatelessWidget {
               // ✅ Fixed Resume Download for Web
               ElevatedButton.icon(
                 onPressed: () {
-                  // When built for web, files are copied into build/web/assets/
-                  // So we can directly point to that relative path
-                  const String resumePath =
-                      'assets/files/Kadhambari_P_S_Resume.pdf';
-                  _launch(resumePath);
-                },
+                _launch('assets/assets/files/Kadhambari_P_S_Resume.pdf');},
                 icon: const Icon(Icons.file_download),
                 label: const Text('Download Resume'),
-              ),
+                ),
             ],
           ),
 
